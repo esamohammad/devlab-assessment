@@ -204,7 +204,6 @@ font-size: small;
 
 
 .image-size{
-
   height: 400px;
   width: 400px; 
 }
@@ -219,8 +218,192 @@ font-size: small;
 }
 
 
+/* responsiveness */
 
 
+/* Media Query for Tablets Ipads portrait mode */ 
+        @media (min-width: 768px) and (max-width: 1024px){ 
+            
+
+            .container {
+              margin: 0 auto;
+              max-width: 1024px;
+              padding: 5px 10px;
+            }
+
+            nav ul {
+            gap: 5px;
+            font-size: small;
+            }
+
+.hero-container{
+  max-width: 1024px;
+  padding: 0 15px;
+  margin: 0 15px;
+}
+
+.girl-image{
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+    z-index: 100;
+    transform: scale(1);
+}
+
+
+.text-div{
+  margin-top: 15px;
+  
+}
+
+.text-div h1 {
+  font-weight: 900;
+  font-size: 40px;
+  margin-top: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}  
+
+
+.number-div{
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+
+.image-div{
+ position: relative;
+ width: 70%;
+ margin-top: 1px;
+ 
+}
+
+.image-div img{
+ width: 80%;
+ margin-left: 70px;
+ 
+}
+
+.girl-image{
+    position: absolute;
+    top: -40px;
+    bottom: 50px;
+    left: 25px;
+    z-index: 100;
+    transform: scale(1.1);
+   
+}
+
+.extra-bg{
+    position: absolute;
+    top: -150px;
+    left: 150px;
+    z-index: 200;
+    transform: scale(0.15, 0.25);
+    opacity: .25;
+}
+
+
+
+
+
+
+
+        } 
+
+/* Media Query for low resolution  Tablets, Ipads */ 
+        @media (min-width: 481px) and (max-width: 767px) { 
+            
+
+
+ .container {
+              margin: 0 auto;
+              max-width: 767px;
+              padding: 5px 10px;
+            }
+
+            nav ul {
+            gap: 1px;
+            font-size: small;
+            }
+
+.logo-text{
+    color: var(--green);
+    font-size: 16px;
+}
+     
+
+.logo span{
+    color: var(--yellow);
+    font-size: 20px;
+    margin-right: 0px;
+}
+
+nav ul {
+  gap: 2px;
+}
+
+.btn-sec li{
+  display: none;
+}
+
+.search-icon{
+  font-size: 16px;
+  color: var(--green);
+}
+
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  max-width: 767px;
+  padding: 0 15px;
+  margin: 0 15px;
+}
+
+.image-div{
+ position: relative;
+ width: 100%;
+ margin-top: 30px;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.image-div img{
+ width: 80%;
+ margin-left: 0px;
+ margin-top: 80px;
+ 
+}
+
+.girl-image{
+    position: absolute;
+    bottom: 50px;
+    left: 80px;
+    right: 80px;
+    margin: auto;
+    right: 0;
+    z-index: 100;
+    transform: scale(1.30);
+}
+
+        } 
+
+
+/* Media Query for Mobile Devices */ 
+        @media (max-width: 480px) { 
+            body { 
+                background-color: red; 
+            } 
+        } 
+
+
+          
+     
+
+          
+        
+          
+        
 
 
 
