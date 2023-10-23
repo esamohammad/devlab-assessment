@@ -95,6 +95,129 @@ nav ul select{
 
 /* Hero In */
 
+.hero-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh-72px);
+  margin: 0 auto;
+  max-width: 1200px;
+  background: #f5f3f3;
+  border-radius: 25px;
+  
+}
+
+
+.text-div{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  
+}
+
+.text-div h1 {
+  font-weight: 900;
+  font-size: 50px;
+  margin-top: 50px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}  
+
+
+.color-div{
+  margin-top: 25px;
+  background:var(--yellow);
+  width:fit-content;
+  height: 50px;
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+  border-radius: 100px;
+  padding-top: 3px;
+  padding-right: 40px;
+  padding-bottom: 3px;
+  padding-left: 40px;
+
+}
+
+.small-text{
+  font-size: small;
+  margin-top: 20px;
+}
+
+.button-div{
+  margin-top: 30px;
+  display: flex;
+  font-size: small;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.play-button{
+
+font-size: 15px;
+color: var(--yellow);
+background:rgb(228, 219, 219);
+padding: 4px 10px;
+border-radius: 50%;
+
+}
+
+.number-div{
+ margin-top: 60px;
+ gap: 40px;
+ display: flex;
+ flex-direction: row;
+ margin-bottom: 30px;
+}
+
+.number-div h3{
+color: var(--green);
+font-weight: 600;
+
+}
+
+.number-div p{
+font-size: small;
+}
+
+.image-div{
+ position: relative;
+ width: 50%;
+}
+
+.image-div img{
+ width: 80%;
+ margin-left: 100px;
+ 
+}
+
+.girl-image{
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+    z-index: 100;
+    transform: scale(1.30);
+}
+
+
+.image-size{
+
+  height: 400px;
+  width: 400px; 
+}
+
+.extra-bg{
+    position: absolute;
+    top: -150px;
+    left: 250px;
+    z-index: 200;
+    transform: scale(0.12, 0.30);
+    opacity: .25;
+}
+
+
 
 
 
